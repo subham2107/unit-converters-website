@@ -92,11 +92,11 @@ body{
   }
 
   #iselect{
-    width: 190px;height: 25px;
+    width: 200px;height: 25px;
   }
 
   #oselect{
-    width: 190px;height: 25px;
+    width: 200px;height: 25px;
   }
 
 
@@ -194,11 +194,11 @@ body{
     }
 
     #iselect{
-      width: 145px;height: 20px;
+      width: 155px;height: 20px;
     }
   
     #oselect{
-      width: 145px;height: 20px;
+      width: 155px;height: 20px;
     }
 
 
