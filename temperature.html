@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="commonstyles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <script defer src="temperature.js"></script>
+  <title>Temperature Converter</title>
+</head>
+<body>
+  <div class="non-footer">
+    <header class="navbar">
+      <div style="font-size: 30px;"><a style="color:rgb(77, 80, 83);text-decoration: none;" href="https://my-utility-tools.netlify.app/" target="_blank">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</a></div>
+        <div class="dropdown-nav">Unit Converters <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
+          <div class="dropdown-content">
+            
+            <a href="length.html">Length</a>
+            <a href="weight.html">Weight</a>
+            <a href="#">Temperature</a>
+          </div>
+          </div>
+  <div class="other-websites">
+    <a href="https://my-encoder-decoder.netlify.app/base64encode" target="_blank">Encoder/Decoder</a>
+  </div >
+  <div class="other-websites">
+    <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
+  </div>
+  <div class="other-websites">
+    <a href="https://my-time-stamp-converter.netlify.app/epochtohuman" target="_blank">Time Converter</a>
+  </div> 
+  <div class="other-websites">
+    <a href="https://my-number-base-converter.netlify.app/decimaltobinary" target="_blank">Number Base Converter</a>
+  </div>
+  <div class="other-websites">
+    <a href="https://my-string-utilities.netlify.app/stringutilities" target="_blank">String Utilities</a>
+  </div>
+        
+</header>
+<main class="main-content">
+  
+    <h2 >Temperature Converter</h2>
+    <div >
+    <input style="min-width: 190px;min-height: 20px;" type="text" id="input" required="true" placeholder="Enter your input." >
+    <input style="min-width: 190px;min-height: 20px;"type="text" id="output" placeholder="Your results shown here." readonly>
+    </div>
+
+    
+  <div style="margin-top:20px;">
+    <select id="iselect" style="min-width: 205px;min-height: 25px;">
+    <option value="ikelvin">Kelvin</option>
+    <option value="icelsius">Celsius</option>
+    <option value="ifahrenheit">Fahrenheit</option>
+  </select>
+
+  <select id="oselect" style="min-width: 190px;min-height: 25px;">
+    <option value="okelvin">Kelvin</option>
+    <option value="ocelsius">Celsius</option>
+    <option value="ofahrenheit">Fahrenheit</option>
+  </select>
+
+  </div>
+  <div style="margin-top:20px;">
+    <input type="button" id="convert-button" value= "Convert">
+    <input type="button" id="reset-button" value= "Reset">
+  </div>
+
+</main>
+
+<section>
+  <div class="content-info" style="text-align: justify;">
+  <h3 style="padding-top: 10px;text-align: center;">What is Unit converter?</h3>
+  <p>The process of conversion depends on the specific situation and the intended purpose. This may be governed by regulation, contract, technical specifications or other published standards.</p>
+   <p>Some conversions from one system of units to another need to be exact, without increasing or decreasing the precision of the first measurement.It does not involve changing the physical configuration of the item being measured</p>
+   <p>By contrast, a hard conversion or an adaptive conversion may not be exactly equivalent. It changes the measurement to convenient and workable numbers and units in the new system.</p>
+   <p>You can check out more about it 
+     <a style="color:#388bfd;" href ="https://en.wikipedia.org/wiki/Conversion_of_units" target="_blank">here.</a></p>
+    </div>     
+  </section>
+</div>
+<div class="footer-wrapper">
+<footer style="background-color:#24292e;">
+  <div class="footer-info" style="text-align: center;color:white;">
+    <p style="padding-top: 10px;">Check out my profiles here:</p>
+     <div class="footer-logo" >
+       <a href="https://www.linkedin.com/in/subham-mitra/" target="_blank"><img src="Images/linkedin.svg"></a>
+       <a style="margin-left: 10px;margin-right: 10px;" href="https://github.com/subham2107" target="_blank"><img src="Images/github.svg"></a>
+       <a href="https://twitter.com/subham2107" target="_blank"><img src="Images/twitter.svg"></a>
+      </div>
+  </div>
+</footer>
+</div>
+
+  
+</body>
+</html>
