@@ -39,22 +39,23 @@
 </header>
 <main class="main-content">
   
-  <h2 >Length Converter</h2>
-  <div >
-  <input style="min-width: 190px;min-height: 20px;" type="text" id="input" required="true" placeholder="Enter your input." >
-  <input style="min-width: 190px;min-height: 20px;"type="text" id="output" placeholder="Your results shown here." readonly>
+  <h2 style="text-align: center;">Length Converter</h2>
+  <div class="input-output">
+  <div class="input-text">
+  <input  type="text" id="input" required="true" placeholder="Enter your input." >
+  <input type="text" id="output" placeholder="Your results shown here." readonly>
   </div>
 
   
 <div style="margin-top:20px;">
-  <select id="iselect" style="min-width: 205px;min-height: 25px;">
+  <select id="iselect" >
   <option value="iinch">Inch</option>
   <option value="ifoot">Foot</option>
   <option value="icentimeter">Centimeter</option>
   
 </select>
 
-<select id="oselect" style="min-width: 190px;min-height: 25px;">
+<select id="oselect" >
   <option value="oinch">Inch</option>
   <option value="ofoot">Foot</option>
   <option value="ocentimeter">Centimeter</option>
@@ -64,6 +65,7 @@
 <div style="margin-top:20px;">
   <input type="button" id="convert-button" value= "Convert">
   <input type="button" id="reset-button" value= "Reset">
+</div>
 </div>
 
 </main>

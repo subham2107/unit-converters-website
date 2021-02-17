@@ -83,22 +83,31 @@ body{
         
   } 
 
-  /*.main-content{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-   /* max-height: 600px;
-    min-height: 600px;
-    max-width: 600px;
-    min-width: 600px;
-    margin: 0 auto;
-    display:inline;
-    margin: 0 auto;
-  } */
+  #input{
+    width: 190px;height: 20px;
+  }
 
-  .main-content{
-    text-align: center;
+  #output{
+    width: 190px;height: 20px;
+  }
+
+  #iselect{
+    width: 190px;height: 25px;
+  }
+
+  #oselect{
+    width: 190px;height: 25px;
+  }
+
+
+
+  
+
+  .input-output{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .dropdown-arrow{
@@ -167,6 +176,33 @@ body{
         max-width: 300px;    
       }
   }
+
+  @media screen and (max-width: 425px) {
+    
+    .content-info{
+      margin: auto;
+      max-width: 300px;    
+    }
+
+
+    #input{
+      width: 145px;height: 20px;
+    }
+
+    #output{
+      width: 145px;height: 20px;
+    }
+
+    #iselect{
+      width: 145px;height: 20px;
+    }
+  
+    #oselect{
+      width: 145px;height: 20px;
+    }
+
+
+}
   
 
  /* @media screen and (max-width: 925px){

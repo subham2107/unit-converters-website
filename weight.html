@@ -40,21 +40,22 @@
 </header>
 <main class="main-content">
   
-  <h2 >Weight Converter</h2>
+  <h2 style="text-align: center;">Weight Converter</h2>
+  <div class="input-output">
   <div >
-  <input style="min-width: 190px;min-height: 20px;" type="text" id="input" required="true" placeholder="Enter your input." >
-  <input style="min-width: 190px;min-height: 20px;"type="text" id="output" placeholder="Your results shown here." readonly>
+  <input type="text" id="input" required="true" placeholder="Enter your input." >
+  <input type="text" id="output" placeholder="Your results shown here." readonly>
   </div>
 
   
 <div style="margin-top:20px;">
-  <select id="iselect" style="min-width: 205px;min-height: 25px;">
+  <select id="iselect" >
   <option value="igram">Gram</option>
   <option value="ipound">Pound</option>
   <option value="ikilogram">Kilogram</option>
 </select>
 
-<select id="oselect" style="min-width: 190px;min-height: 25px;">
+<select id="oselect">
   <option value="ogram">Gram</option>
   <option value="opound">Pound</option>
   <option value="okilogram">Kilogram</option>
@@ -64,6 +65,7 @@
 <div style="margin-top:20px;">
   <input type="button" id="convert-button" value= "Convert">
   <input type="button" id="reset-button" value= "Reset">
+</div>
 </div>
 
 </main>
