@@ -13,37 +13,36 @@
 <body>
   <div class="non-footer">
     <header class="navbar">
-      <div style="font-size: 30px;"><a style="color:rgb(77, 80, 83);text-decoration: none;" href="https://my-utility-tools.netlify.app/" target="_blank">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</a></div>
-        <div class="dropdown-nav">Unit Converters <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
+
+        <div class="dropdown-nav"><img id="hamburger" style="margin-top: 14px;" src ="Images/menu-24px.svg">
+          <div class="dropdown-content" >
+            <a href="https://my-string-utilities.netlify.app/stringutilities" target="_blank">String Utilities</a>
+            <a href="https://my-time-stamp-converter.netlify.app/epochtohuman" target="_blank">Time Converter</a>
+            <a href="https://my-number-base-converter.netlify.app/decimaltobinary" target="_blank">Base Converter</a>
+            <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
+            <a href="https://my-encoder-decoder.netlify.app/base64encode" target="_blank">Encoder/Decoder</a>
+          </div>
+        </div>
+
+        <div class="dropdown-nav">Unit Converter <span><img class="dropdown-arrow" src="Images/down-arrow.svg"></span>
           <div class="dropdown-content">
             <a href="#">Length</a>
             <a href="weight.html">Weight</a>
             <a href="temperature.html">Temperature</a>
           </div>
           </div>
-  <div class="other-websites">
-    <a href="https://my-encoder-decoder.netlify.app/base64encode" target="_blank">Encoder/Decoder</a>
-  </div >
-  <div class="other-websites">
-    <a href="https://my-color-converter.netlify.app/rgb-hex" target="_blank">Color Converter</a>
-  </div>
-  <div class="other-websites">
-    <a href="https://my-time-stamp-converter.netlify.app/epochtohuman" target="_blank">Time Converter</a>
-  </div> 
-  <div class="other-websites">
-    <a href="https://my-number-base-converter.netlify.app/decimaltobinary" target="_blank">Number Base Converter</a>
-  </div>
-  <div class="other-websites">
-    <a href="https://my-string-utilities.netlify.app/stringutilities" target="_blank">String Utilities</a>
-  </div>      
+
+
+      <div class="util"><a style="color:rgb(77, 80, 83);text-decoration: none;" href="https://my-utility-tools.netlify.app/" target="_blank">Utility<span style="background-color: rgb(39, 110, 241);color:white;border-radius: 50%;">@</span>pps</a></div>
+             
 </header>
 <main class="main-content">
   
   <h2 style="text-align: center;">Length Converter</h2>
   <div class="input-output">
   <div class="input-text">
-  <input  type="text" id="input" required="true" placeholder="Enter your input." >
-  <input type="text" id="output" placeholder="Your results shown here." readonly>
+  <input  type="number" id="input" placeholder="Enter input" >
+  <input type="number" id="output" placeholder="Output" readonly>
   </div>
 
   
